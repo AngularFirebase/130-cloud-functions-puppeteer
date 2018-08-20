@@ -1,0 +1,7 @@
+{
+  "name": "ionSSR",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
