@@ -7,6 +7,7 @@ import { SeoService } from '../seo.service';
   styleUrls: ['./hippo.page.scss']
 })
 export class HippoPage implements OnInit {
+  isServer = true;
   constructor(seo: SeoService) {
     seo.addTwitterCard(
       'Hippos are rad!',
